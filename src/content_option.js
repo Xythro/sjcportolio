@@ -84,24 +84,39 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://images.unsplash.com/photo-1581092335397-9583eb92d232",
+        img: require("./assets/images/Vacuumchamber_main.jpg"),
         description: "Vacuum Chamber: Revival and redesign of a 1960's Triaxial Shear Testing chamber",
-        link: "#",
+        link: "/projects/vacuum-chamber",
     },
     {
-        img: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6",
-        description: "Electromagnet Field Array: Hexagonal array of nineteen electromagnets with custom ESP32 driver",
-        link: "#",
+        img: require("./assets/images/SiCring_main.jpg"),
+        description: "Silicon Carbide Ring: Advanced material processing and manufacturing",
+        link: "/projects/sic-ring",
     },
     {
-        img: "https://images.unsplash.com/photo-1544318606-01677e725122",
-        description: "Electric Skateboard: Custom-built electric skateboard with CNC-machined components",
-        link: "#",
+        img: require("./assets/images/dragonfly_forerib.jpg"),
+        description: "SEM Microscopy: High-resolution imaging and analysis",
+        link: "/projects/sem-microscopy",
     },
     {
-        img: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-        description: "Next To You: IoT-integrated art installation with AWS backend",
-        link: "#",
+        img: require("./assets/images/Nonmagssand_titanium_map.jpg"),
+        description: "Elemental Analysis: Volcanic sand composition study",
+        link: "/projects/elemental-analysis",
+    },
+    {
+        img: require("./assets/images/FBPA6_main.jpg"),
+        description: "Laser Cuttable Composites: Research into advanced composite materials",
+        link: "/projects/laser-composites",
+    },
+    {
+        img: require("./assets/images/customtrucks_main.jpg"),
+        description: "Custom Longboard Trucks: Precision engineering for enhanced performance",
+        link: "/projects/custom-trucks",
+    },
+    {
+        img: require("./assets/images/emag_maintemp.jpg"),
+        description: "Programmable Electromagnet Array: Advanced magnetic field control system",
+        link: "/projects/emag-array",
     },
 ];
 
