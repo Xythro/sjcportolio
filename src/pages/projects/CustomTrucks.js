@@ -3,7 +3,7 @@ import ProjectTemplate from "./ProjectTemplate";
 import customTrucksMain from "../../assets/images/customtrucks_main.jpg";
 
 const CustomTrucks = () => {
-  const title = "Custom Longboard Trucks";
+  const title = "Custom Longboard Trucks - CNC 6061, designed for high angle turns";
   const description = "Design and manufacturing of precision-engineered longboard trucks for enhanced performance";
   const images = [customTrucksMain];
   

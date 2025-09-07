@@ -14,6 +14,9 @@ import ElementalAnalysis from "../pages/projects/ElementalAnalysis";
 import LaserComposites from "../pages/projects/LaserComposites";
 import CustomTrucks from "../pages/projects/CustomTrucks";
 import EmagArray from "../pages/projects/EmagArray";
+import ESP32PwmDriver from "../pages/projects/ESP32PwmDriver";
+import PorousAluminiumSculpture from "../pages/projects/PorousAluminiumSculpture";
+import CustomESK8 from "../pages/projects/CustomESK8";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -38,6 +41,9 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/projects/laser-composites" element={<LaserComposites />} />
         <Route path="/projects/custom-trucks" element={<CustomTrucks />} />
         <Route path="/projects/emag-array" element={<EmagArray />} />
+        <Route path="/projects/esp32-multiplexed-pwm-driver" element={<ESP32PwmDriver />} />
+        <Route path="/projects/porous-aluminium-sculpture" element={<PorousAluminiumSculpture />} />
+        <Route path="/projects/custom-esk8" element={<CustomESK8 />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>

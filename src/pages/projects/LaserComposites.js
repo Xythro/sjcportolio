@@ -3,7 +3,7 @@ import ProjectTemplate from "./ProjectTemplate";
 import fbpa6Main from "../../assets/images/FBPA6_main.jpg";
 
 const LaserComposites = () => {
-  const title = "Laser Cuttable Composite Plastics";
+  const title = " Laser Cuttable Composite Experiments - molding, cutting and tensile testing";
   const description = "Research and development of advanced composite materials for laser cutting applications";
   const images = [fbpa6Main];
   

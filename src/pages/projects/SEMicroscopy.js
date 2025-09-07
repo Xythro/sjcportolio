@@ -16,7 +16,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { meta } from "../../content_option";
 
 const SEMicroscopy = () => {
-  const title = "SEM Microscopy";
+  const title = "SEM Microscopy - (mis)uses of an awesome tool";
   const description = "High-resolution imaging and analysis using Scanning Electron Microscopy";
   const images = [
     spiderHair,

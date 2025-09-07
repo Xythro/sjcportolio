@@ -1,0 +1,16 @@
+At my old workplace I had the fortunate access to a ZEISS Scanning Electron Microscope. While a relatively old machine (purchased originally in 2010) it was a fantastic tool for our material science work, and an even better toy for curiosity. Shown on the right are some of my (mis)uses of the SEM. 
+
+We were also fortunate in obtaining a carbon and gold sputter coating chamber for free with the SEM, which enabled conductive material coatings for imaging non-conductive samples (e.g. organics, ceramics etc). 
+
+The gold sputter coater was much faster and more regularly utilised, as the old vacuum pump with the coater couldn’t quite pull deep enough vacuum for fast carbon coating.
+
+<Au_coat>
+Gold coating samples, with the gorgeous blueish purple plasma characteristic of gold. 
+
+<C_coat>
+Literally blinding light from the 3000C carbon filament used in coating.
+ 
+The SEM itself had BSD and SE imaging modes, and an Oxford Instruments EBSD. Unfortunately I never found an excuse/use for the EBSD - as far as we could tell it had never been used, which was a shame given how interesting of a tool it is.
+
+We spent a fair amount of time tuning and reassembling the microscope, but were never really able to get the advertised performance out of it (nowhere close in-fact). This was definitely in-part due to the extremely unideal mechanical isolation, and probably insufficient power filtering. At the time the facilities were very space constrained, with the choice either being buildings with leaky roofs, full of powder contamination or (as chosen) mounted on a flimsy concrete pad. As we were on a tight budget we couldn’t buy the more expensive Lathanum Hexaboride filaments (in place of the tungsten filaments that came with the machine) which have a much higher electron emission intensity and so a stronger image signal. 
+In any case, the ability to see in a spectrum of varying atomic weights was such a fantastic privilege - there was/is only a handful of SEMs in NZ outside of the universities. 

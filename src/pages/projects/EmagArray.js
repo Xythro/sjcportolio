@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectTemplate from "./ProjectTemplate";
-import emagMaintemp from "../../assets/images/emag_maintemp.jpg";
+import emagMaintemp from "../../assets/images/emag_main.JPG";
 
 const EmagArray = () => {
-  const title = "Programmable Electromagnet Array";
-  const description = "Development of a hexagonal array of nineteen electromagnets with custom ESP32 driver";
+  const title = "Liquid Cooled Electromagnet Array - designed to fit as vacuum chamber manifold";
+  const description = "Liquid-cooled hexagonal array of nineteen electromagnets integrated as a vacuum chamber manifold";
   const images = [emagMaintemp];
   
   const content = (

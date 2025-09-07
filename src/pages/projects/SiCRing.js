@@ -3,7 +3,7 @@ import ProjectTemplate from "./ProjectTemplate";
 import sicRingMain from "../../assets/images/SiCring_main.jpg";
 
 const SiCRing = () => {
-  const title = "Silicon Carbide Ring";
+  const title = "Silicon Carbide Ring - adventures in diamond grinding with custom tooling";
   const description = "Advanced material processing and manufacturing of silicon carbide components";
   const images = [sicRingMain];
   

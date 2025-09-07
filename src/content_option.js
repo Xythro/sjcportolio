@@ -90,12 +90,12 @@ const dataportfolio = [{
     },
     {
         img: require("./assets/images/SiCring_main.jpg"),
-        description: "Silicon Carbide Ring: Advanced material processing and manufacturing",
+        description: "Silicon Carbide Ring - adventures in diamond grinding with custom tooling",
         link: "/projects/sic-ring",
     },
     {
         img: require("./assets/images/dragonfly_forerib.jpg"),
-        description: "SEM Microscopy: High-resolution imaging and analysis",
+        description: "SEM Microscopy - (mis)uses of an awesome tool",
         link: "/projects/sem-microscopy",
     },
     {
@@ -105,18 +105,33 @@ const dataportfolio = [{
     },
     {
         img: require("./assets/images/FBPA6_main.jpg"),
-        description: "Laser Cuttable Composites: Research into advanced composite materials",
+        description: " Laser Cuttable Composite Experiments - molding, cutting and tensile testing",
         link: "/projects/laser-composites",
     },
     {
         img: require("./assets/images/customtrucks_main.jpg"),
-        description: "Custom Longboard Trucks: Precision engineering for enhanced performance",
+        description: "Custom Longboard Trucks - CNC 6061, designed for high angle turns",
         link: "/projects/custom-trucks",
     },
     {
-        img: require("./assets/images/emag_maintemp.jpg"),
-        description: "Programmable Electromagnet Array: Advanced magnetic field control system",
+        img: require("./assets/images/emag_main.JPG"),
+        description: "Liquid Cooled Electromagnet Array - designed to fit as vacuum chamber manifold",
         link: "/projects/emag-array",
+    },
+    {
+        img: require("./assets/images/Generic_controller.jpg"),
+        description: "Generic ESP32 multiplexed PWM driver",
+        link: "/projects/esp32-multiplexed-pwm-driver",
+    },
+    {
+        img: require("./assets/images/SaltCast_spin.gif"),
+        description: "Porous Aluminium Sculpture using salt infiltration casting",
+        link: "/projects/porous-aluminium-sculpture",
+    },
+    {
+        img: require("./assets/images/Esk8_horizontal.jpg"),
+        description: "Custom ESK8 with scratchbuilt trucks, deck, battery and enclosure",
+        link: "/projects/custom-esk8",
     },
 ];
 
