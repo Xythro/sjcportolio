@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f767010e.css",
+    "main.js": "/static/js/main.7caa727a.js",
+    "static/media/SaltCast_spin.gif": "/static/media/SaltCast_spin.2ee4b3e633a5136a9e51.gif",
+    "static/media/Vacuumchamber_main.jpg": "/static/media/Vacuumchamber_main.ee99977ba09727f99732.jpg",
+    "static/media/Generic_controller.jpg": "/static/media/Generic_controller.e969ca901fa572967d67.jpg",
+    "static/media/customtrucks_main.jpg": "/static/media/customtrucks_main.04ea47c2bbcf8fbc5bf9.jpg",
+    "static/media/FBPA6_main.jpg": "/static/media/FBPA6_main.64cc3fe7d566c7d363af.jpg",
+    "static/media/DemonSam.jpg": "/static/media/DemonSam.0d50dc044a55858a73c9.jpg",
+    "static/media/Esk8_horizontal.jpg": "/static/media/Esk8_horizontal.0961eb7c09a49186b128.jpg",
+    "static/media/Sam_Dragonfly05.jpg": "/static/media/Sam_Dragonfly05.108909e5fb446b43b803.jpg",
+    "static/media/Sam_Dragonfly06.jpg": "/static/media/Sam_Dragonfly06.7a4add2221a6e5d59774.jpg",
+    "static/media/dragonfly_forerib.jpg": "/static/media/dragonfly_forerib.7a4add2221a6e5d59774.jpg",
+    "static/media/emag_main.JPG": "/static/media/emag_main.8c8a49e1e4c47ade73e3.JPG",
+    "static/media/Sam_Spider_web03.jpg": "/static/media/Sam_Spider_web03.33bcaff5485b4f1ac1cd.jpg",
+    "static/media/Sam_Spider_web04.jpg": "/static/media/Sam_Spider_web04.d22591a77917afa2e7fd.jpg",
+    "static/media/Wolf_Spider_hair.jpg": "/static/media/Wolf_Spider_hair.1b73fbd0f946be70c6be.jpg",
+    "static/media/Sam_Spider_web08.jpg": "/static/media/Sam_Spider_web08.918e7d2b981ccb2d18d9.jpg",
+    "static/media/Sam_Spider_web01.jpg": "/static/media/Sam_Spider_web01.e0f3879183b748279bec.jpg",
+    "static/media/Nonmagssand_titanium_map.jpg": "/static/media/Nonmagssand_titanium_map.501f63b692460b3d137f.jpg",
+    "static/media/Sam_SnailShell06.jpg": "/static/media/Sam_SnailShell06.a7950b0eddc1c2d53117.jpg",
+    "static/media/Sam_SnailShell07.jpg": "/static/media/Sam_SnailShell07.c7da0e6f78b77fe7d40e.jpg",
+    "static/media/Bee_eye2.jpg": "/static/media/Bee_eye2.4d74b3d9e24eb7a2f7eb.jpg",
+    "static/media/Bee_eye1.jpg": "/static/media/Bee_eye1.4b43176757730d87f100.jpg",
+    "static/media/SiCring_main.jpg": "/static/media/SiCring_main.6e1f3476f2ab932a89c2.jpg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.f767010e.css",
+    "static/js/main.7caa727a.js"
+  ]
+}
