@@ -14,10 +14,12 @@ const introdata = {
         fifth: "I repeat",
         sixth: "I repeat",
     },
-    description: "Hi! I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job. If you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
+    description: "Hi! I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job.\n\nIf you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
     your_img_url: require("./assets/images/DemonSam.jpg"),
     // your_img_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
 };
+
+const knowledge = ["1", "2", "3"];
 
 const dataabout = {
     title: "About Me",
@@ -163,4 +165,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    knowledge,
 };

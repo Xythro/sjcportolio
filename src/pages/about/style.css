@@ -98,3 +98,18 @@
         transform: translateZ(0);
     }
 }
+
+/* Ensure bullet points are visible and lists split into two columns */
+.about-list {
+    list-style: disc inside;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    column-gap: 2rem;
+    padding-left: 1rem;
+}
+
+.about-list li {
+    break-inside: avoid;
+    padding: 4px 0;
+}

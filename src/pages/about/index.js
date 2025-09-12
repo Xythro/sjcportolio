@@ -7,7 +7,7 @@ import {
   meta,
   worktimeline,
   skills,
-  services,
+  knowledge,
 } from "../../content_option";
 
 export const About = () => {
@@ -16,12 +16,12 @@ export const About = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
+          <title> Capabilities | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4">Capabilities</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -60,38 +60,23 @@ export const About = () => {
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+            <ul className="about-list">
+              {skills.map((data, i) => (
+                <li key={i}>{data.name}</li>
+              ))}
+            </ul>
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lg="5">
+            <h3 className="color_sec py-4">Knowledge</h3>
           </Col>
           <Col lg="7">
-            {services.map((data, i) => {
-              return (
-                <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
-                </div>
-              );
-            })}
+            <ul className="about-list">
+              {knowledge.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
           </Col>
         </Row>
       </Container>
