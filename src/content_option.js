@@ -14,7 +14,7 @@ const introdata = {
         fifth: "I repeat",
         sixth: "I repeat",
     },
-    description: "Hi, I’m Samuel. I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job. If you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
+    description: "Hi! I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job. If you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
     your_img_url: require("./assets/images/DemonSam.jpg"),
     // your_img_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
 };
@@ -27,7 +27,7 @@ const dataabout = {
 const worktimeline = [{
         jobtitle: "Mechatronics Engineer",
         where: "Foundry Lab",
-        date: "2021 - Present",
+        date: "2021 - 2025",
     },
     {
         jobtitle: "Intern",
