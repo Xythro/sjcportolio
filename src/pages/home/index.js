@@ -19,8 +19,8 @@ export const Home = () => {
     const xPercent = relX / rect.width;
     const yPercent = relY / rect.height;
 
-    const withinX = xPercent >= 0.25 && xPercent <= 0.75; // middle 50%
-    const withinY = yPercent >= 0.20 && yPercent <= 0.80; // middle 60%
+    const withinX = xPercent >= 0.225 && xPercent <= 0.775; // widen horizontally by 5%
+    const withinY = yPercent >= 0.25 && yPercent <= 0.85; // shift region down by 5%
 
     if (withinX && withinY) {
       setTooltipVisible(true);
@@ -53,7 +53,7 @@ export const Home = () => {
             {tooltipVisible && (
               <div
                 className="cursor-tooltip"
-                style={{ left: tooltipPos.x + 12, top: tooltipPos.y + 12 }}
+                style={{ left: tooltipPos.x + 60, top: tooltipPos.y - 12 }}
               >
                 1000°C/1832°F
               </div>
@@ -66,11 +66,7 @@ export const Home = () => {
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
+                      strings: Object.values(introdata.animated),
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,

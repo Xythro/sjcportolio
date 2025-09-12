@@ -7,11 +7,14 @@ const meta = {
 const introdata = {
     title: "I'm Samuel",
     animated: {
-        first: "I design mechatronic systems",
-        second: "I develop industrial solutions",
-        third: "I innovate in 3D printing",
+        first: "I research",
+        second: "I design",
+        third: "I test",
+        fourth: "I repeat",
+        fifth: "I repeat",
+        sixth: "I repeat",
     },
-    description: "A Mechatronics Engineer with expertise in industrial 3D printing, automation, and R&D. Currently leading thermal systems development at Foundry Lab, with a strong background in mechanical design, electronics, and software integration.",
+    description: "Hi, I’m Samuel. I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job. If you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
     your_img_url: require("./assets/images/DemonSam.jpg"),
     // your_img_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
 };
