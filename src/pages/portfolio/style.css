@@ -11,7 +11,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 0 0 4rem 0; /* match vertical gap to 4rem column gap */
     position: relative;
     background: var(--secondary-color);
     padding: 6px;
