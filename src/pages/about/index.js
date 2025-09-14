@@ -16,23 +16,28 @@ export const About = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Capabilities | {meta.title}</title>
+          <title> About Me | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Capabilities</h1>
+            <h1 className="display-4 mb-4">About Me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
-          </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p style={{whiteSpace: 'pre-line'}}>{dataabout.aboutme}</p>
             </div>
+          </Col>
+          <Col lg="5" className="d-flex align-items-center justify-content-center">
+            <img 
+              src={require("../../assets/images/meheadshot.jpg")} 
+              alt="Samuel Corder" 
+              className="img-fluid rounded"
+              style={{maxWidth: '100%', height: 'auto'}}
+            />
           </Col>
         </Row>
         <Row className=" sec_sp">
@@ -61,8 +66,8 @@ export const About = () => {
           </Col>
           <Col lg="7">
             <ul className="about-list">
-              {skills.map((data, i) => (
-                <li key={i}>{data.name}</li>
+              {skills.map((skill, i) => (
+                <li key={i}>{skill}</li>
               ))}
             </ul>
           </Col>

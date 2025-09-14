@@ -14,16 +14,29 @@ const introdata = {
         fifth: "I repeat",
         sixth: "I repeat",
     },
-    description: "Hi! I’m a mechatronics engineer from New Zealand. I’m obsessed with breakthrough science technology, and thus far I’ve worked across additive, medical, and industrial fields. I’m currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I’m looking for my next daytime obsession/job.\n\nIf you’re building something truly bold and impactful, I’d love to connect. My technicals are in the menu above for your reference.",
+    description: "Hi! I'm a mechatronics engineer from New Zealand. I'm obsessed with breakthrough science technology, and thus far I've worked across additive, medical, and industrial fields. I'm currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I'm looking for my next daytime obsession/job.\n\nIf you're building something truly bold and impactful, I'd love to connect. My technicals are in the menu above for your reference.",
     your_img_url: require("./assets/images/DemonSam.jpg"),
     // your_img_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
 };
 
-const knowledge = ["1", "2", "3"];
+const knowledge = [
+    "Mechanical components (motion components, fasteners, materials etc)",
+    "Manufacturing Processes (machining, sheet work, casting, AM etc)",
+    "GD&T",
+    "Static Mechanics",
+    "Dynamic Mechanics",
+    "Control Theory",
+    "Embedded Electronics",
+    "Power Electronics",
+    "Sensor Instrumentation and Measurement",
+    "Material Science and Chemistry (metallurgy)",
+    "Thermodynamics",
+    "Scientific Test Design/Theory"
+];
 
 const dataabout = {
     title: "About Me",
-    aboutme: "I'm a Mechatronics Engineer with a passion for innovative technology and complex problem-solving. At Foundry Lab, I lead the development of high-temperature ceramic materials and thermal mechanisms for industrial 3D printing systems. My expertise spans across mechanical design, thermal modeling, control systems, and process optimization. With a strong academic background and hands-on experience in various engineering domains, I bring a comprehensive approach to technical challenges.",
+    aboutme: "I grew up in Auckland, in the north of New Zealand, and thanks to my dad's mechatronic career I was surrounded by engineering from an early age. This sparked a lasting curiosity for STEM — and a knack for asking fundamental questions.\n\nDespite my engineering interests English was actually my strongest subject, which nearly pulled me into the dark path of law school. Fortunately my natural inclinations prevailed, and I moved to Christchurch in the foothills of the Southern Alps to study Mechatronics Engineering (BEHons).\n\nFor the past three and a half years I've been based in Wellington, working at a deep-tech startup called Foundry Lab. This was a fantastic place to hone both technical and non-technical skills, collaborating with a brilliant team pushing the boundaries of industrial metal prototyping. I'm now looking toward my next step.\n\nI'm someone who always seeks improvement and challenge. I've worked hard to cultivate equanimity, creativity, and a methodical approach to problem-solving — qualities that guide both my technical work and how I show up in teams. Collaboration and commitment are core values for me, and I bring full focus to whatever I take on.\n\nOutside of work I'm happiest in nature — forest walks, ocean and river swims or beach walks are my favourites. I also enjoy exploring new places and meeting people from different backgrounds/perspectives, which is what motivates much of my current travel through Asia.",
 };
 
 const worktimeline = [{
@@ -48,30 +61,21 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "CAD/Mechanical Design",
-        value: 95,
-    },
-    {
-        name: "Python/C/Matlab",
-        value: 90,
-    },
-    {
-        name: "Thermal Modeling",
-        value: 85,
-    },
-    {
-        name: "Process Development",
-        value: 90,
-    },
-    {
-        name: "Project Management",
-        value: 85,
-    },
-    {
-        name: "Technical Writing",
-        value: 90,
-    },
+const skills = [
+    "Mechanical design (DFM, Motion Design, Tolerancing etc)",
+    "Mechanical CAD (Inventor/Solidworks/Fusion360)",
+    "Mechanical fabrication (CNC/Manual Machining/Metrology/AM Prototyping)",
+    "Machine Operation and Maintenance",
+    "Electrical Design (KICAD/Altium PCB Design)",
+    "Electrical Assembly and Debugging",
+    "Data Analysis (Python/Matlab/Excel/GSheets)",
+    "AI Generative and Analysis tool application",
+    "PLC programming and operation (Beckhoff/Twincat)",
+    "Risk Analysis",
+    "Technical/scientific communication and report writing",
+    "Technical project management",
+    "Scientific Research (literature reviews, staged/phased research)",
+    "Experiment Design"
 ];
 
 const services = [{
@@ -137,6 +141,11 @@ const dataportfolio = [{
         img: require("./assets/images/Esk8_horizontal.jpg"),
         description: "Custom ESK8 with scratchbuilt trucks, deck, battery and enclosure",
         link: "/projects/custom-esk8",
+    },
+    {
+        img: require("./assets/images/Nexttoyou.jpg"),
+        description: "Next To You - art project with MQTT communicating smart (ESP32) park benches",
+        link: "/projects/next-to-you",
     },
 ];
 
