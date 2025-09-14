@@ -5,10 +5,10 @@ We were also fortunate in obtaining a carbon and gold sputter coating chamber fo
 The gold sputter coater was much faster and more regularly utilised, as the old vacuum pump with the coater couldn’t quite pull deep enough vacuum for fast carbon coating.
 
 <Au_coat>
-Gold coating samples, with the gorgeous blueish purple plasma characteristic of gold. 
+(CAPTION)Gold coating samples, with the gorgeous blueish purple plasma characteristic of gold. 
 
 <C_coat>
-Literally blinding light from the 3000C carbon filament used in coating.
+(CAPTION)Literally blinding light from the 3000C carbon filament used in coating.
  
 The SEM itself had BSD and SE imaging modes, and an Oxford Instruments EBSD. Unfortunately I never found an excuse/use for the EBSD - as far as we could tell it had never been used, which was a shame given how interesting of a tool it is.
 

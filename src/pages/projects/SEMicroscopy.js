@@ -11,6 +11,8 @@ import spiderWeb03 from "../../assets/images/SEM Images/Sam_Spider_web03.jpg";
 import spiderWeb01 from "../../assets/images/SEM Images/Sam_Spider_web01.jpg";
 import beeEye1 from "../../assets/images/SEM Images/Bee_eye1.jpg";
 import beeEye2 from "../../assets/images/SEM Images/Bee_eye2.jpg";
+import auCoatGif from "../../assets/images/Au_coat.gif";
+import cCoatGif from "../../assets/images/C_coat.gif";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { meta } from "../../content_option";
@@ -34,40 +36,62 @@ const SEMicroscopy = () => {
   
   const content = (
     <div>
-      <h2>Project Overview</h2>
       <p>
-        This project involved the use of Scanning Electron Microscopy (SEM) to conduct
-        detailed analysis of various materials and biological samples. The work focused
-        on obtaining high-resolution images and performing elemental analysis to
-        understand material properties and structures at the microscopic level.
+        At my old workplace I had the fortunate access to a ZEISS Scanning Electron Microscope. While a relatively old machine (purchased originally in 2010) it was a fantastic tool for our material science work, and an even better toy for curiosity. Shown on the right are some of my (mis)uses of the SEM.
       </p>
 
-      <h3>Technical Aspects</h3>
-      <ul>
-        <li>Sample preparation and mounting</li>
-        <li>SEM operation and optimization</li>
-        <li>Image acquisition and processing</li>
-        <li>Elemental analysis and mapping</li>
-      </ul>
-
-      <h3>Analysis Methods</h3>
       <p>
-        The project utilized several advanced microscopy techniques:
+        We were also fortunate in obtaining a carbon and gold sputter coating chamber for free with the SEM, which enabled conductive material coatings for imaging non-conductive samples (e.g. organics, ceramics etc).
       </p>
-      <ul>
-        <li>Secondary electron imaging for surface topography</li>
-        <li>Backscattered electron imaging for composition contrast</li>
-        <li>Energy-dispersive X-ray spectroscopy (EDS)</li>
-        <li>3D reconstruction from multiple images</li>
-      </ul>
 
-      <h3>Findings</h3>
       <p>
-        The SEM analysis provided valuable insights into the microstructure and
-        composition of various samples, including the dragonfly forerib shown in
-        the image. The high-resolution images revealed intricate details about
-        the material's structure and properties, contributing to a better
-        understanding of its characteristics and potential applications.
+        The gold sputter coater was much faster and more regularly utilised, as the old vacuum pump with the coater couldn't quite pull deep enough vacuum for fast carbon coating.
+      </p>
+
+      <div className="mb-4">
+        <img 
+          src={auCoatGif}
+          alt="Gold coating process"
+          className="img-fluid"
+          style={{
+            width: '100%',
+            height: 'auto',
+            maxHeight: '400px',
+            objectFit: 'contain',
+            borderRadius: '8px',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+          }}
+        />
+        <p><strong><em>Gold coating samples, with the gorgeous blueish purple plasma characteristic of gold.</em></strong></p>
+      </div>
+
+      <div className="mb-4">
+        <img 
+          src={cCoatGif}
+          alt="Carbon coating process"
+          className="img-fluid"
+          style={{
+            width: '100%',
+            height: 'auto',
+            maxHeight: '400px',
+            objectFit: 'contain',
+            borderRadius: '8px',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+          }}
+        />
+        <p><strong><em>Literally blinding light from the 3000C carbon filament used in coating.</em></strong></p>
+      </div>
+
+      <p>
+        The SEM itself had BSD and SE imaging modes, and an Oxford Instruments EBSD. Unfortunately I never found an excuse/use for the EBSD - as far as we could tell it had never been used, which was a shame given how interesting of a tool it is.
+      </p>
+
+      <p>
+        We spent a fair amount of time tuning and reassembling the microscope, but were never really able to get the advertised performance out of it (nowhere close in-fact). This was definitely in-part due to the extremely unideal mechanical isolation, and probably insufficient power filtering. At the time the facilities were very space constrained, with the choice either being buildings with leaky roofs, full of powder contamination or (as chosen) mounted on a flimsy concrete pad. As we were on a tight budget we couldn't buy the more expensive Lathanum Hexaboride filaments (in place of the tungsten filaments that came with the machine) which have a much higher electron emission intensity and so a stronger image signal.
+      </p>
+
+      <p>
+        In any case, the ability to see in a spectrum of varying atomic weights was such a fantastic privilege - there was/is only a handful of SEMs in NZ outside of the universities.
       </p>
     </div>
   );
