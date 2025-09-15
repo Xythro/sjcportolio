@@ -45,33 +45,38 @@ const worktimeline = [{
         date: "2021 - 2025",
     },
     {
-        jobtitle: "Intern",
+        jobtitle: "Mechatronics Intern",
         where: "Fisher & Paykel Healthcare",
         date: "2020 - 2021",
     },
     {
-        jobtitle: "Team Lead",
+        jobtitle: "Mechatronics Intern",
+        where: "Trimble",
+        date: "2019-2020",
+    },
+    {
+        jobtitle: "Incubator Team Lead",
         where: "NZ Aerospace Challenge",
         date: "2019",
     },
     {
-        jobtitle: "Intern",
-        where: "Trimble/Loadrite",
-        date: "2017-2018, 2019-2020",
+        jobtitle: "Mechatronics Intern",
+        where: "Trimble",
+        date: "2017-2018",
     },
 ];
 
 const skills = [
     "Mechanical design (DFM, Motion Design, Tolerancing etc)",
     "Mechanical CAD (Inventor/Solidworks/Fusion360)",
-    "Mechanical fabrication (CNC/Manual Machining/Metrology/AM Prototyping)",
+    "Mechanical fabrication (CNC/Manual Machining/AM Prototyping/Casting/Metrology)",
     "Machine Operation and Maintenance",
     "Electrical Design (KICAD/Altium PCB Design)",
     "Electrical Assembly and Debugging",
     "Data Analysis (Python/Matlab/Excel/GSheets)",
-    "AI Generative and Analysis tool application",
     "PLC programming and operation (Beckhoff/Twincat)",
-    "Risk Analysis",
+    "Machine Tuning and Optimisation (control loops, analysis etc",
+    "AI Generative and Analysis tool application",
     "Technical/scientific communication and report writing",
     "Technical project management",
     "Scientific Research (literature reviews, staged/phased research)",
@@ -93,6 +98,11 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        img: require("./assets/images/dragonfly_forerib.jpg"),
+        description: "SEM Microscopy - (mis)uses of an awesome tool",
+        link: "/projects/sem-microscopy",
+    },
+    {
         img: require("./assets/images/Vacuumchamber_main.jpg"),
         description: "Vacuum Chamber: Revival and redesign of a 1960's Triaxial Shear Testing chamber",
         link: "/projects/vacuum-chamber",
@@ -101,11 +111,6 @@ const dataportfolio = [{
         img: require("./assets/images/SiCring_main.jpg"),
         description: "Silicon Carbide Ring - adventures in diamond grinding with custom tooling",
         link: "/projects/sic-ring",
-    },
-    {
-        img: require("./assets/images/dragonfly_forerib.jpg"),
-        description: "SEM Microscopy - (mis)uses of an awesome tool",
-        link: "/projects/sem-microscopy",
     },
     {
         img: require("./assets/images/Nonmagssand_titanium_map.jpg"),
@@ -151,8 +156,8 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "samcorder23@gmail.com", // Replace with your actual email
-    YOUR_FONE: "", // Add your phone if desired
-    description: "Feel free to reach out for collaborations, opportunities, or to discuss innovative engineering solutions.",
+    YOUR_FONE: "+64 27 657 7040", // Add your phone if desired
+    description: "Feel free to reach out for collaborations, opportunities or questions.",
     YOUR_SERVICE_ID: "service_5s0v1no",
     YOUR_TEMPLATE_ID: "template_1ar6v3s",
     YOUR_USER_ID: "9CaN9KG8AnskPK6lk",
