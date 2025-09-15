@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { dataportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
@@ -29,7 +30,7 @@ export const Portfolio = () => {
                     <img src={data.img} alt="" />
                     <div className="content">
                       <p>{data.description}</p>
-                      {isSEMProject && <a href={data.link}>view project</a>}
+                      {isSEMProject && <Link to={data.link}>view project</Link>}
                     </div>
                   </div>
                 </Col>
