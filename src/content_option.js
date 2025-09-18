@@ -62,7 +62,7 @@ const worktimeline = [{
     {
         jobtitle: "Mechatronics Intern",
         where: "Trimble",
-        date: "2017-2018",
+        date: "2017-2018"
     },
 ];
 
@@ -72,15 +72,16 @@ const skills = [
     "Mechanical fabrication (CNC/Manual Machining/AM Prototyping/Casting/Metrology)",
     "Machine Operation and Maintenance",
     "Electrical Design (KICAD/Altium PCB Design)",
-    "Electrical Assembly and Debugging",
+    "Electrical Assembly and Debugging (Embedded systems/PLC)",
     "Data Analysis (Python/Matlab/Excel/GSheets)",
     "PLC programming and operation (Beckhoff/Twincat)",
-    "Machine Tuning and Optimisation (control loops, analysis etc",
+    "Machine Tuning and Optimisation (control loops, analysis etc)",
     "AI Generative and Analysis tool application",
+    "Data and File Handling (storage structuring, github, gdrive etc)",
     "Technical/scientific communication and report writing",
-    "Technical project management",
+    "Technical project management (planning, scheduling, resource allocation, etc)",
     "Scientific Research (literature reviews, staged/phased research)",
-    "Experiment Design"
+    "Experiment Design (variable control, measurement, analysis etc)"
 ];
 
 const services = [{
@@ -108,7 +109,7 @@ const dataportfolio = [{
         link: "/projects/vacuum-chamber",
     },
     {
-        img: require("./assets/images/SiCring_main.jpg"),
+        img: require("./assets/images/Ringspin.gif"),
         description: "Silicon Carbide Ring - adventures in diamond grinding with custom tooling",
         link: "/projects/sic-ring",
     },

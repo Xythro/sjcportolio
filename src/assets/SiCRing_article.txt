@@ -63,7 +63,6 @@ This roadblock, like many, made me pause and reconsider. That’s when I realize
 
 This worked well, though it was tough on the tool. The mill’s relatively low RPM meant the bit wore down quickly. In fact, I ground the diamonds completely off the tip during the final cut, which caused some rapid heating and burning.
 
-Despite that, the final ring result was deeply satisfying.
+Despite that, the final result was deeply satisfying.
 
 <finished_ring>
-(CAPTION) Final ring. 
