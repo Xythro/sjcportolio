@@ -104,9 +104,9 @@ const dataportfolio = [{
         link: "/projects/sem-microscopy",
     },
     {
-        img: require("./assets/images/Vacuumchamber_main.jpg"),
-        description: "Vacuum Chamber: Revival and redesign of a 1960's Triaxial Shear Testing chamber",
-        link: "/projects/vacuum-chamber",
+        img: require("./assets/images/emag_main.JPG"),
+        description: "Liquid Cooled Electromagnet Array - designed to fit as vacuum chamber manifold",
+        link: "/projects/emag-array",
     },
     {
         img: require("./assets/images/Ringspin.gif"),
@@ -119,9 +119,9 @@ const dataportfolio = [{
         link: "/projects/elemental-analysis",
     },
     {
-        img: require("./assets/images/FBPA6_main.jpg"),
-        description: " Laser Cuttable Composite Experiments - molding, cutting and tensile testing",
-        link: "/projects/laser-composites",
+        img: require("./assets/images/Generic_controller.jpg"),
+        description: "Generic ESP32 multiplexed PWM driver",
+        link: "/projects/esp32-multiplexed-pwm-driver",
     },
     {
         img: require("./assets/images/customtrucks_main.jpg"),
@@ -129,14 +129,19 @@ const dataportfolio = [{
         link: "/projects/custom-trucks",
     },
     {
-        img: require("./assets/images/emag_main.JPG"),
-        description: "Liquid Cooled Electromagnet Array - designed to fit as vacuum chamber manifold",
-        link: "/projects/emag-array",
+        img: require("./assets/images/Vacuumchamber_main.jpg"),
+        description: "Vacuum Chamber: Revival and redesign of a 1960's Triaxial Shear Testing chamber",
+        link: "/projects/vacuum-chamber",
     },
     {
-        img: require("./assets/images/Generic_controller.jpg"),
-        description: "Generic ESP32 multiplexed PWM driver",
-        link: "/projects/esp32-multiplexed-pwm-driver",
+        img: require("./assets/images/FBPA6_main.jpg"),
+        description: " Laser Cuttable Composite Experiments - molding, cutting and tensile testing",
+        link: "/projects/laser-composites",
+    },
+    {
+        img: require("./assets/images/Quadcopter/Quadcopter Benchtest.JPG"),
+        description: "Quadcopter - 12'' props, CF Tube and 3DP Nylon",
+        link: "#",
     },
     {
         img: require("./assets/images/SaltCast_spin.gif"),
