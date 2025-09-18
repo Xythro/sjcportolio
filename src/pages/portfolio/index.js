@@ -25,13 +25,14 @@ export const Portfolio = () => {
             {dataportfolio.map((data, i) => {
               const isSEMProject = data.link === "/projects/sem-microscopy";
               const isSiCRingProject = data.link === "/projects/sic-ring";
+              const isCustomTrucksProject = data.link === "/projects/custom-trucks";
               return (
                 <Col lg={4} md={6} sm={12} key={i} className="mb-4">
                   <div className="po_item">
                     <img src={data.img} alt="" />
                     <div className="content">
                       <p>{data.description}</p>
-                      {(isSEMProject || isSiCRingProject) && <Link to={data.link}>view project</Link>}
+                      {(isSEMProject || isSiCRingProject || isCustomTrucksProject) && <Link to={data.link}>view project</Link>}
                     </div>
                   </div>
                 </Col>
