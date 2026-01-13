@@ -1,7 +1,7 @@
 const logotext = "SAMUEL";
 const meta = {
     title: "Sam's Portfolio",
-    description: "Mechatronics Engineer specializing in industrial 3D printing, automation, and R&D",
+    description: "Mechatronics Engineer specializing in industrial automation and scientific R&D",
 };
 
 const introdata = {
@@ -14,8 +14,8 @@ const introdata = {
         fifth: "I repeat",
         sixth: "I repeat",
     },
-    description: "Hi! I'm a mechatronics engineer from New Zealand. I'm obsessed with breakthrough science technology, and thus far I've worked across additive, medical, and industrial fields. I'm currently travelling across Asia after leaving my last role (recharging, exploring and getting inspired), and I'm looking for my next daytime obsession/job.\n\nIf you're building something truly bold and impactful, I'd love to connect. My technicals are in the menu above for your reference.",
-    your_img_url: require("./assets/images/DemonSam.jpg"),
+    description: "Hi! I'm a mechatronics engineer from New Zealand, and I'm obsessed with breakthrough science and technology. \n\nI've just migrated to London, and if you're building something interesting I'd love to connect. My personal projects and technicals are in the menu above for your reference.",
+    your_img_url: require("./assets/images/DemonSam.jpg"), 
     // your_img_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
 };
 
@@ -36,7 +36,7 @@ const knowledge = [
 
 const dataabout = {
     title: "About Me",
-    aboutme: "I grew up in Auckland, in the north of New Zealand, and thanks to my dad's mechatronic career I was surrounded by engineering from an early age. This sparked a lasting curiosity for STEM — and a knack for asking fundamental questions.\n\nDespite my engineering interests English was actually my strongest subject, which nearly pulled me into the dark path of law school. Fortunately my natural inclinations prevailed, and I moved to Christchurch in the foothills of the Southern Alps to study Mechatronics Engineering (BEHons).\n\nFor the past three and a half years I've been based in Wellington, working at a deep-tech startup called Foundry Lab. This was a fantastic place to hone both technical and non-technical skills, collaborating with a brilliant team pushing the boundaries of industrial metal prototyping. I'm now looking toward my next step.\n\nI'm someone who always seeks improvement and challenge. I've worked hard to cultivate equanimity, creativity, and a methodical approach to problem-solving — qualities that guide both my technical work and how I show up in teams. Collaboration and commitment are core values for me, and I bring full focus to whatever I take on.\n\nOutside of work I'm happiest in nature — forest walks, ocean and river swims or beach walks are my favourites. I also enjoy exploring new places and meeting people from different backgrounds/perspectives, which is what motivates much of my current travel through Asia.",
+    aboutme: "I grew up in Auckland, in the north of New Zealand, and thanks to my dad's mechatronic career I was surrounded by engineering from an early age. This sparked a lasting passion/curiosity  for STEM — and a knack for asking fundamental questions.\n\nDespite my engineering interests English was actually my strongest subject, which nearly pulled me into the dark path of law. Fortunately my natural inclinations prevailed, and I moved to Christchurch in the foothills of the Southern Alps to study Mechatronics Engineering (BEHons).\n\nFor the past ~4 years I've been based in Wellington, working at a deep-tech startup called Foundry Lab. This was a fantastic place to hone both technical and non-technical skills, collaborating with a brilliant team pushing the boundaries of industrial metal prototyping. \n\nI'm someone who always seeks improvement and challenge. I've worked hard to cultivate equanimity, creativity, and a methodical approach to problem-solving — qualities that guide both my technical work and how I show up in teams. Collaboration and commitment are core values for me, and I bring full focus to whatever I take on.\n\nOutside of work I'm happiest in nature — forest walks, ocean and river swims or beach walks are my favourites. I also love exploring new places and meeting people, especially those from different backgrounds/perspectives.",
 };
 
 const worktimeline = [{
@@ -162,7 +162,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "samcorder23@gmail.com", // Replace with your actual email
-    YOUR_FONE: "+64 27 657 7040", // Add your phone if desired
+    YOUR_FONE: "+44 7438 600853", // Add your phone if desired
     description: "Feel free to reach out for collaborations, opportunities or questions.",
     YOUR_SERVICE_ID: "service_5s0v1no",
     YOUR_TEMPLATE_ID: "template_1ar6v3s",
