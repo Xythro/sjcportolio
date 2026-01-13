@@ -201,7 +201,7 @@
 }
 
 .menu_footer a {
-    color: var(--text-color-2);
+    color: transparent;
     margin-right: 10px;
     text-decoration: none;
 }

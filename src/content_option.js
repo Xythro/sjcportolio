@@ -171,7 +171,7 @@ const contactConfig = {
 
 const socialprofils = {
 
-    linkedin: "https://www.linkedin.com/in/sam-corder-067aa1133/",
+    linkedin: "https://www.linkedin.com/in/samuel-corder-067aa1133/",
 };
 
 export {
